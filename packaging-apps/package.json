@@ -1,5 +1,5 @@
 {
-  "name": "create-desktop-apps",
+  "name": "packaging-apps",
   "version": "1.0.0",
   "description": "Electron 打包发布",
   "main": "app/index.js",
