@@ -1,0 +1,16 @@
+{
+  "name": "create-desktop-apps",
+  "version": "1.0.0",
+  "description": "Electron 打包发布",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "electron ./app",
+    "build": "electron-packager . MyApp --platform=darwin --arch=x64 --version=0.28.3 --asar=true --overwrite"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.1",
+    "electron-prebuilt": "^0.28.3"
+  },
+  "author": "Edward Chu <crazyzyt@gmail.com>",
+  "license": "MIT"
+}

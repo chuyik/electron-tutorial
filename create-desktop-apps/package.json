@@ -1,0 +1,14 @@
+{
+  "name": "create-desktop-apps",
+  "version": "1.0.0",
+  "description": "创建 Electron 应用",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "electron ./app"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.28.3"
+  },
+  "author": "Edward Chu <crazyzyt@gmail.com>",
+  "license": "MIT"
+}
